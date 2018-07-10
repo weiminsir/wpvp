@@ -1,0 +1,20 @@
+{
+    "noRowsToShow": "暂无数据",
+    "toolPanel":"工具面板",
+    "pinLeft": "左固定",
+    "pinRight": "右固定",
+    "noPin": "不固定",
+    "pinColumn": "固定列",
+    "autosizeThiscolumn": "当前列尺寸自动设置",
+    "autosizeAllColumns": "所有列尺寸自动设置",
+    "resetColumns": "重置列",
+    "selectAll": "选择所有",
+    "searchOoo": "搜索",
+    "blanks": "空白",
+    "copy": "复制",
+    "copyWithHeaders": "带表头复制",
+    "paste": "粘贴",
+    "export": "导出",
+    "csvExport": "CSV导出",
+    "excelExport": "Excel导出"
+  }

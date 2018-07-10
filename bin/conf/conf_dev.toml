@@ -1,0 +1,25 @@
+runmodel="dev"
+version = "v1"
+port = ":8088"
+retrieve_dir="./retrieve_file"
+proxy_addr="http://192.168.1.243:10001"
+
+#  配置说明: 1, port-端口,2,proxy_addr-代理ip地址,模型所在地址
+#  3, db_host,db_port,db_name-数据库地址,数据库名称
+
+[database]
+db_host = "192.168.1.207"
+db_port = "27017"
+db_user = ""
+db_pass = ""
+db_name = "wpvp241"
+db_type = "mongodb"
+
+[log]
+logPath = "log"
+logFileName = "./application.log"
+printConsole = true
+maxNumber = 10
+maxSize = 2
+# 1:debug
+level = 1

@@ -1,0 +1,72 @@
+张维民 15:07:56
+<IMG src="file:///C:\Users\Administrator\AppData\Roaming\feiq\RichOle\1494268068.bmp">
+CHM 15:10:17
+	// user management
+	m.GET("/api/object/:user", s.getUser)
+	m.POST("/api/object", s.createUser)
+
+	// object management
+	m.POST("/api/objects", s.createObject)
+	m.GET("/api/objects/:index/:pagesize", s.listObjects)
+	m.POST("/api/objects/:user", s.updateObject)
+	m.DELETE("/api/objects/:user", s.deleteObject)
+	m.GET("/api/objects/user/:user", s.getObjectByUser)
+	m.GET("/api/objects/name/:name", s.getObjectByName)
+	m.POST("/api/objects/query", s.queryObjects)
+	m.POST("/api/objects/search", s.searchObjects)
+
+	// online/offline
+	m.GET("/api/enable/:user", s.enableObject)
+	m.GET("/api/disable/:user", s.disableObject)
+
+	// samples management
+	m.POST("/api/sample", s.addSample)
+	m.GET("/api/samples/:user/:policy", s.listSamples)
+	m.DELETE("/api/samples/:user/:policy", s.delAllSamples)
+	m.GET("/api/samples/reset/:user/:policy", s.delAllSamples)
+	m.DELETE("/api/sample/:oid", s.delSample)
+
+	// model management
+	m.GET("/api/model/:user/:policy", s.checkModel)
+	m.GET("/api/model/data/:user/:policy", s.getModel)
+	m.DELETE("/api/model/:user/:policy", s.delModel)
+	m.GET("/api/model/reset/:user/:policy", s.delModel)
+
+	// train & recognition
+	m.POST("/api/train", s.train)
+	m.POST("/api/predict", s.predict)
+
+	// policy
+	m.GET("/api/policys", s.listPolicy)
+	m.POST("/api/policy", s.createPolicy)
+	m.POST("/api/policy/:id", s.updatePolicy)
+	m.DELETE("/api/policy/:id", s.deletePolicy)
+
+	// keyword
+	m.POST("/api/keywords", s.setKeywordlist)
+	m.GET("/api/keywords", s.listKeywords)
+
+	// log
+	m.GET("/api/log/reco/:id", s.getRecoLog)
+	m.GET("/api/log/recologs", s.listRecoLogs)
+	m.GET("/api/log/voicelogs", s.listVoiceLogs)
+
+	// voice file
+	m.GET("/api/voice/*", s.getVoice)
+	m.GET("/api/pcm/:oid/*", s.getPCM)
+
+	// recognition
+	m.POST("/api/callrecord", s.recvCallRec)
+
+	//get hit result
+	m.GET("/api/callrecord/hit", s.getCallHit)
+	m.GET("/api/callrecord/audio/:id", s.getCallAudio)
+	m.POST("/api/callrecord/find", s.findCallHit)
+	m.POST("/api/callrecord/propel", s.propeling)
+
+	// statistics
+	m.GET("/api/callrecord/stat/:start/:end", s.getStat)
+	m.GET("/api/sidb/stat/:total/:type", s.getSidbStat)
+
+	// moniter
+	m.GET("/api/callrecord/size", s.getCallDqSize)

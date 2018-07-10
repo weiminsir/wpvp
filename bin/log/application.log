@@ -1,0 +1,593 @@
+2018/07/04 10:34:03 auth.go:47: info admin login in
+2018/07/04 10:34:05 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 10:34:05 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 10:35:41 model_orm.go:48: info login account=admin
+2018/07/04 10:35:41 filter.go:61: info listening port= :8084
+2018/07/04 10:36:03 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 10:36:03 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 10:36:30 model_orm.go:48: info login account=admin
+2018/07/04 10:36:30 filter.go:61: info listening port= :8084
+2018/07/04 10:36:51 filter.go:82: info proxy:method=POST host=/api/train
+2018/07/04 10:36:51 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/train
+2018/07/04 10:41:11 filter.go:82: info proxy:method=GET host=/api/samples/201807040910060/1
+2018/07/04 10:41:11 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807040910060/1
+2018/07/04 10:41:29 auth.go:47: info admin login in
+2018/07/04 10:45:37 taskController.go:110: info condition=map[]
+2018/07/04 10:45:37 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 10:45:37 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 10:51:43 filter.go:82: info proxy:method=POST host=/api/sample
+2018/07/04 10:51:43 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/sample
+2018/07/04 11:00:07 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 11:00:07 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 11:06:09 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 11:06:09 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 11:31:11 model_orm.go:48: info login account=admin
+2018/07/04 11:31:11 filter.go:61: info listening port= :8084
+2018/07/04 11:31:19 auth.go:47: info admin login in
+2018/07/04 11:31:52 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 11:33:17 model_orm.go:45: info init admin :admin
+2018/07/04 11:33:17 filter.go:61: info listening port= :8084
+2018/07/04 11:33:21 auth.go:47: info admin login in
+2018/07/04 11:33:34 taskController.go:110: info condition=map[]
+2018/07/04 11:33:34 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 11:33:34 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 11:33:49 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041002100/1
+2018/07/04 11:33:52 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040948460/1
+2018/07/04 11:34:08 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910090/1
+2018/07/04 11:34:15 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910060/1
+2018/07/04 11:34:19 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807031613140/1
+2018/07/04 11:34:57 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041131470/1
+2018/07/04 11:35:51 auth.go:47: info admin login in
+2018/07/04 11:36:26 auth.go:47: info admin login in
+2018/07/04 11:36:27 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 11:36:39 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 11:36:41 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041131470/1
+2018/07/04 11:36:44 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 11:37:17 modelcontroller.go:232: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 11:37:17 modelcontroller.go:236: info value.String()=200
+2018/07/04 11:37:56 modelcontroller.go:232: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 11:37:56 modelcontroller.go:236: info value.String()=200
+2018/07/04 12:19:07 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/2/10
+2018/07/04 12:19:11 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 12:19:14 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/3/10
+2018/07/04 12:24:47 model_orm.go:48: info login account=admin
+2018/07/04 12:24:47 filter.go:61: info listening port= :8084
+2018/07/04 12:25:01 auth.go:47: info admin login in
+2018/07/04 12:25:06 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/2/10
+2018/07/04 12:25:08 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/3/10
+2018/07/04 12:28:29 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 12:30:20 auth.go:47: info admin login in
+2018/07/04 12:30:24 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 12:30:26 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 12:30:40 modelcontroller.go:232: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 12:30:40 modelcontroller.go:236: info value.String()=200
+2018/07/04 12:31:02 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/2/10
+2018/07/04 12:31:04 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/3/10
+2018/07/04 12:31:37 modelcontroller.go:232: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 12:31:37 modelcontroller.go:236: info value.String()=200
+2018/07/04 12:48:43 auth.go:47: info admin login in
+2018/07/04 12:48:45 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 12:48:45 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 12:49:18 filter.go:82: info proxy:method=POST host=/api/train
+2018/07/04 12:49:18 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/train
+2018/07/04 12:49:48 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 12:49:48 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 12:49:58 filter.go:82: info proxy:method=POST host=/api/train
+2018/07/04 12:49:58 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/train
+2018/07/04 12:50:49 auth.go:47: info admin login in
+2018/07/04 12:56:17 filter.go:82: info proxy:method=GET host=/api/pcm/1530675306244431900_7230_201807041131470/man/20180704/201807041131470_1530675306_01-A.wav
+2018/07/04 12:56:17 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/pcm/1530675306244431900_7230_201807041131470/man/20180704/201807041131470_1530675306_01-A.wav
+2018/07/04 12:56:17 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 12:56:17 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 13:07:05 filter.go:82: info proxy:method=GET host=/api/objects
+2018/07/04 13:07:05 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects
+2018/07/04 13:11:20 model_orm.go:48: info login account=admin
+2018/07/04 13:11:20 filter.go:61: info listening port= :8084
+2018/07/04 13:13:44 model_orm.go:48: info login account=admin
+2018/07/04 13:13:44 filter.go:61: info listening port= :8084
+2018/07/04 13:14:46 filter.go:82: info proxy:method=GET host=/api/samples/201807041002100/1
+2018/07/04 13:14:46 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041002100/1
+2018/07/04 13:17:35 model_orm.go:48: info login account=admin
+2018/07/04 13:17:35 filter.go:61: info listening port= :8084
+2018/07/04 13:17:57 model_orm.go:48: info login account=admin
+2018/07/04 13:17:57 filter.go:61: info listening port= :8084
+2018/07/04 13:18:02 filter.go:82: info proxy:method=GET host=/api/samples/201807041131470/1
+2018/07/04 13:18:02 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041131470/1
+2018/07/04 13:21:19 model_orm.go:48: info login account=admin
+2018/07/04 13:21:19 filter.go:61: info listening port= :8084
+2018/07/04 13:21:36 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 13:21:36 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 13:23:41 model_orm.go:48: info login account=admin
+2018/07/04 13:23:41 filter.go:61: info listening port= :8084
+2018/07/04 13:24:56 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 13:24:56 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 13:26:20 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 13:26:20 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 13:32:48 model_orm.go:48: info login account=admin
+2018/07/04 13:32:48 filter.go:61: info listening port= :8084
+2018/07/04 13:34:31 filter.go:82: info proxy:method=GET host=/api/samples/456456456/1
+2018/07/04 13:34:31 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/456456456/1
+2018/07/04 13:36:43 model_orm.go:48: info login account=admin
+2018/07/04 13:36:43 filter.go:61: info listening port= :8084
+2018/07/04 13:37:20 model_orm.go:48: info login account=admin
+2018/07/04 13:37:20 filter.go:61: info listening port= :8084
+2018/07/04 13:37:48 filter.go:82: info proxy:method=GET host=/api/samples/456456456/1
+2018/07/04 13:37:48 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/456456456/1
+2018/07/04 13:40:07 model_orm.go:48: info login account=admin
+2018/07/04 13:40:07 filter.go:61: info listening port= :8084
+2018/07/04 13:41:00 model_orm.go:48: info login account=admin
+2018/07/04 13:41:00 filter.go:61: info listening port= :8084
+2018/07/04 13:41:36 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 13:41:36 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 13:41:43 model_orm.go:48: info login account=admin
+2018/07/04 13:41:43 filter.go:61: info listening port= :8084
+2018/07/04 13:41:58 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 13:41:58 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 13:43:00 model_orm.go:48: info login account=admin
+2018/07/04 13:43:00 filter.go:61: info listening port= :8084
+2018/07/04 13:45:24 auth.go:47: info admin login in
+2018/07/04 13:46:32 model_orm.go:48: info login account=admin
+2018/07/04 13:46:32 filter.go:61: info listening port= :8084
+2018/07/04 13:46:41 filter.go:82: info proxy:method=GET host=/api/samples/456456456/1
+2018/07/04 13:46:41 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/456456456/1
+2018/07/04 13:47:55 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/456456456/1
+2018/07/04 13:48:25 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 13:48:39 auth.go:47: info admin login in
+2018/07/04 13:53:00 filter.go:82: info proxy:method=POST host=/api/objects/201807041346360
+2018/07/04 13:53:00 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/201807041346360
+2018/07/04 13:58:00 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041131470/1
+2018/07/04 14:04:08 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041002100/1
+2018/07/04 14:04:12 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041346360/1
+2018/07/04 14:04:14 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 14:04:18 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040948460/1
+2018/07/04 14:04:21 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910090/1
+2018/07/04 14:04:22 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910060/1
+2018/07/04 14:04:30 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910050/1
+2018/07/04 14:04:33 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910020/1
+2018/07/04 14:04:35 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910000/1
+2018/07/04 14:04:38 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/2/10
+2018/07/04 14:04:38 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/3/10
+2018/07/04 14:04:50 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/name/auto_021111
+2018/07/04 14:05:00 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/user/456456456
+2018/07/04 14:05:37 modelcontroller.go:237: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 14:05:37 modelcontroller.go:241: info value.String()=200
+2018/07/04 14:06:54 modelcontroller.go:237: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 14:06:54 modelcontroller.go:241: info value.String()=200
+2018/07/04 14:09:13 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 14:10:41 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 14:11:22 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/name/201807041346360
+2018/07/04 14:11:44 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/user/201807041346360
+2018/07/04 14:11:52 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807031805590/1
+2018/07/04 14:11:59 modelcontroller.go:237: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 14:11:59 modelcontroller.go:241: info value.String()=200
+2018/07/04 14:12:10 modelcontroller.go:237: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 14:12:10 modelcontroller.go:241: info value.String()=200
+2018/07/04 14:15:12 model_orm.go:48: info login account=admin
+2018/07/04 14:15:12 filter.go:61: info listening port= :8084
+2018/07/04 14:15:34 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/sample/1530612408446883700_2650_201807031805590
+2018/07/04 14:15:36 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/sample/1530612408446883700_2650_201807031805590
+2018/07/04 14:15:46 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/sample/1530612408446883700_2650_201807031805590
+2018/07/04 14:17:07 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/sample/1530612408446883700_2650_201807031805590
+2018/07/04 14:17:09 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/sample/1530612408446883700_2650_201807031805590
+2018/07/04 14:17:42 model_orm.go:48: info login account=admin
+2018/07/04 14:17:42 filter.go:61: info listening port= :8084
+2018/07/04 14:20:24 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 14:20:24 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 14:29:47 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 14:29:47 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 14:49:03 model_orm.go:48: info login account=admin
+2018/07/04 14:49:03 filter.go:61: info listening port= :8084
+2018/07/04 14:49:48 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 14:49:48 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 14:50:56 model_orm.go:48: info login account=admin
+2018/07/04 14:50:56 filter.go:61: info listening port= :8084
+2018/07/04 14:52:03 model_orm.go:48: info login account=admin
+2018/07/04 14:52:03 filter.go:61: info listening port= :8084
+2018/07/04 14:52:19 filter.go:82: info proxy:method=OPTIONS host=/api/sample/1530678471091450800_1863_201807041216090
+2018/07/04 14:52:19 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/sample/1530678471091450800_1863_201807041216090
+2018/07/04 14:53:06 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 14:53:06 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 14:59:53 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 14:59:53 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:04:50 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:05:11 model_orm.go:48: info login account=admin
+2018/07/04 15:05:11 filter.go:61: info listening port= :8084
+2018/07/04 15:05:14 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 15:05:14 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:05:18 model_orm.go:48: info login account=admin
+2018/07/04 15:05:18 filter.go:61: info listening port= :8084
+2018/07/04 15:05:41 model_orm.go:48: info login account=admin
+2018/07/04 15:05:41 filter.go:61: info listening port= :8084
+2018/07/04 15:05:42 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 15:05:42 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:07:41 model_orm.go:48: info login account=admin
+2018/07/04 15:07:41 filter.go:61: info listening port= :8084
+2018/07/04 15:07:42 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 15:07:42 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:07:56 model_orm.go:48: info login account=admin
+2018/07/04 15:07:56 filter.go:61: info listening port= :8084
+2018/07/04 15:08:10 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:08:12 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:08:13 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:08:28 model_orm.go:48: info login account=admin
+2018/07/04 15:08:28 filter.go:61: info listening port= :8084
+2018/07/04 15:08:31 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:08:32 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:08:45 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 15:08:45 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:08:51 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 15:08:51 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:09:53 model_orm.go:48: info login account=admin
+2018/07/04 15:09:53 filter.go:61: info listening port= :8084
+2018/07/04 15:10:04 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 15:10:04 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:10:05 auth.go:47: info admin login in
+2018/07/04 15:10:09 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041346360/1
+2018/07/04 15:12:26 model_orm.go:48: info login account=admin
+2018/07/04 15:12:26 filter.go:61: info listening port= :8084
+2018/07/04 15:15:46 filter.go:82: info proxy:method=GET host=/api/samples/201807041131470/1
+2018/07/04 15:15:46 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041131470/1
+2018/07/04 15:15:47 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 15:15:47 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:15:49 filter.go:82: info proxy:method=GET host=/api/samples/201807041216090/1
+2018/07/04 15:15:49 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041216090/1
+2018/07/04 15:15:50 filter.go:82: info proxy:method=GET host=/api/samples/201807041131470/1
+2018/07/04 15:15:50 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041131470/1
+2018/07/04 15:15:51 filter.go:82: info proxy:method=GET host=/api/samples/201807041131470/1
+2018/07/04 15:15:51 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041131470/1
+2018/07/04 15:15:53 filter.go:82: info proxy:method=GET host=/api/samples/201807041002100/1
+2018/07/04 15:15:53 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/samples/201807041002100/1
+2018/07/04 15:16:10 auth.go:47: info admin login in
+2018/07/04 15:16:13 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:17:40 modelcontroller.go:246: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 15:17:40 modelcontroller.go:250: info value.String()=200
+2018/07/04 15:18:38 model_orm.go:48: info login account=admin
+2018/07/04 15:18:38 filter.go:61: info listening port= :8084
+2018/07/04 15:19:50 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910050/1
+2018/07/04 15:19:57 modelcontroller.go:246: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 15:19:57 modelcontroller.go:250: info value.String()=200
+2018/07/04 15:22:36 model_orm.go:48: info login account=admin
+2018/07/04 15:22:36 filter.go:61: info listening port= :8084
+2018/07/04 15:22:56 auth.go:47: info admin login in
+2018/07/04 15:22:58 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:22:59 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910050/1
+2018/07/04 15:23:35 modelcontroller.go:246: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 15:23:35 modelcontroller.go:250: info value.String()=200
+2018/07/04 15:25:47 model_orm.go:48: info login account=admin
+2018/07/04 15:25:47 filter.go:61: info listening port= :8084
+2018/07/04 15:26:00 filter.go:82: info proxy:method=GET host=/api/objects/1/10
+2018/07/04 15:26:00 filter.go:89: info tcp absolute address=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:28:08 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/2/10
+2018/07/04 15:28:15 taskController.go:110: info condition=map[]
+2018/07/04 15:28:15 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 15:28:15 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 15:28:17 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806281449050/1
+2018/07/04 15:28:29 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807031805590/1
+2018/07/04 15:29:35 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:30:21 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807031805130/1
+2018/07/04 15:30:32 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:33:37 model_orm.go:48: info login account=admin
+2018/07/04 15:33:37 filter.go:61: info listening port= :8084
+2018/07/04 15:33:49 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:38:14 model_orm.go:48: info login account=admin
+2018/07/04 15:38:14 filter.go:61: info listening port= :8084
+2018/07/04 15:39:16 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:41:21 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807040910000/1
+2018/07/04 15:41:23 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807031616360/1
+2018/07/04 15:48:47 model_orm.go:48: info login account=admin
+2018/07/04 15:48:47 filter.go:61: info listening port= :8084
+2018/07/04 15:49:06 auth.go:47: info admin login in
+2018/07/04 15:49:19 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:49:35 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/456456456/1
+2018/07/04 15:49:56 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/789789789/1
+2018/07/04 15:50:07 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251743240/1
+2018/07/04 15:52:28 auth.go:47: info admin login in
+2018/07/04 15:52:38 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/456456456/1
+2018/07/04 15:52:41 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/789789789/1
+2018/07/04 15:52:48 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:53:09 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806271015420/1
+2018/07/04 15:53:11 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251752120/1
+2018/07/04 15:53:12 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251744330/1
+2018/07/04 15:57:09 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 15:57:10 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806271015420/1
+2018/07/04 15:57:12 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251752120/1
+2018/07/04 16:06:15 model_orm.go:45: info init admin :admin
+2018/07/04 16:06:15 filter.go:61: info listening port= :8084
+2018/07/04 16:06:25 auth.go:47: info admin login in
+2018/07/04 16:06:57 taskController.go:110: info condition=map[]
+2018/07/04 16:06:57 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 16:06:57 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 16:07:29 model_orm.go:48: info login account=admin
+2018/07/04 16:07:29 filter.go:61: info listening port= :8084
+2018/07/04 16:20:13 model_orm.go:48: info login account=admin
+2018/07/04 16:20:13 filter.go:61: info listening port= :8084
+2018/07/04 16:20:25 auth.go:47: info admin login in
+2018/07/04 16:20:26 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 16:22:59 model_orm.go:48: info login account=admin
+2018/07/04 16:22:59 filter.go:61: info listening port= :8084
+2018/07/04 16:23:06 auth.go:47: info admin login in
+2018/07/04 16:32:07 auth.go:47: info admin login in
+2018/07/04 16:32:15 auth.go:47: info admin login in
+2018/07/04 16:32:43 auth.go:47: info admin login in
+2018/07/04 16:40:43 model_orm.go:48: info login account=admin
+2018/07/04 16:40:43 filter.go:61: info listening port= :8084
+2018/07/04 16:40:55 auth.go:47: info admin login in
+2018/07/04 16:41:07 taskController.go:110: info condition=map[]
+2018/07/04 16:41:07 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 16:41:07 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 16:41:09 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806271710490/1
+2018/07/04 16:41:20 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 16:42:12 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806271015420/1
+2018/07/04 16:42:14 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251752120/1
+2018/07/04 16:42:18 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251744330/1
+2018/07/04 16:43:08 auth.go:47: info admin login in
+2018/07/04 16:43:15 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 16:43:25 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806271015420/1
+2018/07/04 16:43:37 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251752120/1
+2018/07/04 16:43:45 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251744330/1
+2018/07/04 16:43:47 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251743240/1
+2018/07/04 16:44:08 auth.go:47: info admin login in
+2018/07/04 17:00:13 model_orm.go:48: info login account=admin
+2018/07/04 17:00:13 filter.go:61: info listening port= :8084
+2018/07/04 17:00:20 auth.go:47: info admin login in
+2018/07/04 17:01:28 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041639000/1
+2018/07/04 17:01:29 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples//1
+2018/07/04 17:01:59 auth.go:47: info admin login in
+2018/07/04 17:02:06 taskController.go:110: info condition=map[]
+2018/07/04 17:02:06 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 17:02:06 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 17:02:21 auth.go:47: info admin login in
+2018/07/04 17:02:46 auth.go:47: info admin login in
+2018/07/04 17:03:38 auth.go:47: info admin login in
+2018/07/04 17:03:50 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples//1
+2018/07/04 17:04:08 auth.go:47: info admin login in
+2018/07/04 17:04:11 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 17:05:31 auth.go:47: info admin login in
+2018/07/04 17:05:35 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 17:05:40 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806271015420/1
+2018/07/04 17:05:42 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251752120/1
+2018/07/04 17:06:23 taskController.go:110: info condition=map[]
+2018/07/04 17:06:23 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 17:06:23 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 17:06:25 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041639000/1
+2018/07/04 17:06:29 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples//1
+2018/07/04 17:08:32 model_orm.go:48: info login account=admin
+2018/07/04 17:08:32 filter.go:61: info listening port= :8084
+2018/07/04 17:08:59 auth.go:47: info admin login in
+2018/07/04 17:09:03 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/objects/1/10
+2018/07/04 17:09:07 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806251752120/1
+2018/07/04 17:09:20 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples//1
+2018/07/04 17:10:18 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041707080/1
+2018/07/04 17:10:25 modelcontroller.go:244: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 17:10:25 modelcontroller.go:248: info value.String()=200
+2018/07/04 17:11:23 modelcontroller.go:244: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 17:11:23 modelcontroller.go:248: info value.String()=200
+2018/07/04 17:11:50 modelcontroller.go:244: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 17:11:50 modelcontroller.go:248: info value.String()=200
+2018/07/04 17:12:17 modelcontroller.go:244: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 17:12:17 modelcontroller.go:248: info value.String()=200
+2018/07/04 17:13:01 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201806271015420/1
+2018/07/04 17:13:58 taskController.go:110: info condition=map[]
+2018/07/04 17:13:58 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 17:13:58 taskController.go:137: info Query={"Cond":{},"MaxCount":60}
+2018/07/04 17:14:34 taskController.go:110: info condition=map[]
+2018/07/04 17:14:34 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 17:14:34 taskController.go:137: info Query={"Cond":{},"MaxCount":60}
+2018/07/04 17:30:49 model_orm.go:48: info login account=admin
+2018/07/04 17:30:56 auth.go:47: info admin login in
+2018/07/04 17:32:18 model_orm.go:48: info login account=admin
+2018/07/04 17:33:31 model_orm.go:48: info login account=admin
+2018/07/04 17:33:40 model_orm.go:48: info login account=admin
+2018/07/04 17:33:48 auth.go:47: info admin login in
+2018/07/04 17:45:13 model_orm.go:48: info login account=admin
+2018/07/04 17:49:34 auth.go:47: info admin login in
+2018/07/04 17:52:29 model_orm.go:48: info login account=admin
+2018/07/04 17:55:55 model_orm.go:48: info login account=admin
+2018/07/04 17:56:55 model_orm.go:48: info login account=admin
+2018/07/04 17:59:04 model_orm.go:48: info login account=admin
+2018/07/04 18:01:23 model_orm.go:48: info login account=admin
+2018/07/04 18:07:09 model_orm.go:48: info login account=admin
+2018/07/04 18:08:44 model_orm.go:48: info login account=admin
+2018/07/04 18:09:44 model_orm.go:48: info login account=admin
+2018/07/04 18:10:55 model_orm.go:48: info login account=admin
+2018/07/04 18:11:12 auth.go:47: info admin login in
+2018/07/04 18:11:24 taskController.go:110: info condition=map[]
+2018/07/04 18:11:24 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 18:11:24 taskController.go:137: info Query={"Cond":{},"MaxCount":100}
+2018/07/04 18:11:27 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples//1
+2018/07/04 18:12:00 taskController.go:110: info condition=map[spkname:立刻就会给]
+2018/07/04 18:12:00 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 18:12:00 taskController.go:137: info Query={"Cond":{"spkname":"立刻就会给"},"MaxCount":100}
+2018/07/04 18:12:26 taskController.go:110: info condition=map[tel:map[$in:[87654 9876]]]
+2018/07/04 18:12:26 taskController.go:131: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/04 18:12:26 taskController.go:137: info Query={"Cond":{"tel":{"$in":["87654","9876"]}},"MaxCount":100}
+2018/07/04 18:12:41 modelcontroller.go:143: info addr=http://192.168.1.243:10001/api/samples/201807041728190/1
+2018/07/04 18:13:56 model_orm.go:48: info login account=admin
+2018/07/04 18:14:47 modelcontroller.go:245: info add sample ={"code":"200","msg":"add Success"}
+2018/07/04 18:14:47 modelcontroller.go:249: info value.String()=200
+2018/07/04 18:22:56 model_orm.go:48: info login account=admin
+2018/07/04 18:26:22 auth.go:47: info admin login in
+2018/07/05 10:00:08 model_orm.go:48: info login account=admin
+2018/07/06 10:02:46 model_orm.go:48: info login account=admin
+2018/07/06 11:29:34 model_orm.go:48: info login account=admin
+2018/07/06 14:50:22 model_orm.go:48: info login account=admin
+2018/07/06 14:52:25 model_orm.go:48: info login account=admin
+2018/07/06 14:52:31 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042126e10 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 14:52:31 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc0421276b0 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 14:52:31 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042127f20 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 14:52:33 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc0420f51d0 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 14:52:34 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc0421b70e0 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 14:52:34 taskController.go:65: info condition=map[]
+2018/07/06 14:52:34 taskController.go:86: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/06 14:52:34 taskController.go:92: info Query={"Cond":{},"MaxCount":100}
+2018/07/06 14:52:34 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042158f90 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 15:06:31 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042283e30 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 15:06:31 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042244690 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 15:06:31 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042276a20 false 0xc0421006c0 wpvp}username=admin
+2018/07/06 15:06:38 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0422ae7b0 false 0xc0421006c0 wpvp}username=weimin
+2018/07/06 15:06:38 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0422aefc0 false 0xc0421006c0 wpvp}username=weimin
+2018/07/06 15:06:38 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0422af7d0 false 0xc0421006c0 wpvp}username=weimin
+2018/07/06 15:06:41 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc042245e00 false 0xc0421006c0 wpvp}username=weimin
+2018/07/06 15:10:45 model_orm.go:48: info login account=admin
+2018/07/06 15:11:37 model_orm.go:48: info login account=admin
+2018/07/06 15:11:46 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc042170ab0 false 0xc0421429e0 wpvp}username=weimin
+2018/07/06 15:11:46 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc04211af60 false 0xc0421429e0 wpvp}username=weimin
+2018/07/06 15:11:46 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc04211b860 false 0xc0421429e0 wpvp}username=weimin
+2018/07/06 15:11:50 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0421070b0 false 0xc0421429e0 wpvp}username=weimin
+2018/07/06 15:15:58 model_orm.go:48: info login account=admin
+2018/07/06 15:19:57 model_orm.go:48: info login account=admin
+2018/07/06 15:20:11 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc042145080 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:11 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0421458f0 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:11 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0421a2180 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:11 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:11 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:11 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:16 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0421725a0 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:16 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0421c4ae0 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:16 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0421c5320 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:16 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:16 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0421730e0 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:16 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:16 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:23 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc04223e120 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:24 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc04223ea80 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:24 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc042173f20 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:24 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc04226a750 false 0xc0420030c0 wpvp}username=weimin
+2018/07/06 15:20:24 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:24 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:20:24 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:22:35 model_orm.go:48: info login account=admin
+2018/07/06 15:23:33 model_orm.go:48: info login account=admin
+2018/07/06 15:23:47 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc0422e8e70 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:47 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc0422e96b0 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:47 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:47 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042134390 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:47 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:47 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:49 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042135200 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:50 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc0421679b0 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:50 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042378300 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:50 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc042378b40 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:50 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:50 auth.go:26: info sess=&{ map[sysuser123:admin] 0xc04218d3b0 false 0xc042100580 wpvp}username=admin
+2018/07/06 15:23:50 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:50 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:54 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0423c0300 false 0xc042100580 wpvp}username=weimin
+2018/07/06 15:23:54 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:54 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc0423d2a20 false 0xc042100580 wpvp}username=weimin
+2018/07/06 15:23:54 auth.go:26: info sess=&{ map[sysuser123:weimin] 0xc04218df50 false 0xc042100580 wpvp}username=weimin
+2018/07/06 15:23:54 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:23:54 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:59:15 model_orm.go:48: info login account=admin
+2018/07/06 15:59:22 auth.go:26: info sessId=username=weimin
+2018/07/06 15:59:22 auth.go:26: info sessId=username=weimin
+2018/07/06 15:59:22 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:59:22 auth.go:26: info sessId=username=weimin
+2018/07/06 15:59:22 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 15:59:22 speakerController.go:72: info curUser=&{U1000002   weimin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:01:49 auth.go:26: info sessId=username=admin
+2018/07/06 16:01:49 auth.go:26: info sessId=username=admin
+2018/07/06 16:01:49 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:01:49 auth.go:26: info sessId=username=admin
+2018/07/06 16:01:49 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:01:49 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:46:55 model_orm.go:48: info login account=admin
+2018/07/06 16:47:03 auth.go:27: info sessId=username=admin
+2018/07/06 16:47:03 auth.go:27: info sessId=username=admin
+2018/07/06 16:47:03 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:47:03 auth.go:27: info sessId=username=admin
+2018/07/06 16:47:03 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:47:03 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:56:36 auth.go:27: info sessId=username=admin
+2018/07/06 16:56:41 auth.go:27: info sessId=username=admin
+2018/07/06 16:56:41 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:56:41 auth.go:27: info sessId=username=admin
+2018/07/06 16:56:41 auth.go:27: info sessId=username=admin
+2018/07/06 16:56:41 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:56:41 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 16:58:48 model_orm.go:48: info login account=admin
+2018/07/06 16:59:08 auth.go:26: info sessId=username=admin
+2018/07/06 16:59:09 auth.go:26: info sessId=username=admin
+2018/07/06 17:02:30 model_orm.go:48: info login account=admin
+2018/07/06 17:04:14 auth.go:26: info sessId=username=admin
+2018/07/06 17:04:14 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 17:04:14 auth.go:26: info sessId=username=admin
+2018/07/06 17:04:14 auth.go:26: info sessId=username=admin
+2018/07/06 17:04:14 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 17:04:14 speakerController.go:72: info curUser=&{U1000001   admin  8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92 0}
+2018/07/06 17:04:20 auth.go:26: info sessId=username=admin
+2018/07/06 17:05:22 model_orm.go:48: info login account=admin
+2018/07/06 17:05:31 auth.go:26: info sessId=username=admin
+2018/07/06 17:05:31 auth.go:26: info sessId=username=admin
+2018/07/06 17:05:31 auth.go:26: info sessId=username=admin
+2018/07/06 17:05:51 auth.go:26: info sessId=username=admin
+2018/07/06 17:05:51 auth.go:26: info sessId=username=admin
+2018/07/06 17:05:51 auth.go:26: info sessId=username=admin
+2018/07/06 17:06:51 model_orm.go:48: info login account=admin
+2018/07/06 17:07:28 model_orm.go:48: info login account=admin
+2018/07/06 17:09:20 model_orm.go:48: info login account=admin
+2018/07/06 17:21:52 model_orm.go:48: info login account=admin
+2018/07/06 17:26:35 model_orm.go:48: info login account=admin
+2018/07/06 17:26:58 model_orm.go:48: info login account=admin
+2018/07/06 17:27:13 model_orm.go:48: info login account=admin
+2018/07/06 17:38:51 model_orm.go:48: info login account=admin
+2018/07/06 17:41:34 model_orm.go:48: info login account=admin
+2018/07/06 17:42:04 model_orm.go:48: info login account=admin
+2018/07/06 17:42:36 model_orm.go:48: info login account=admin
+2018/07/06 17:45:01 model_orm.go:48: info login account=admin
+2018/07/06 17:48:00 model_orm.go:48: info login account=admin
+2018/07/06 17:49:02 model_orm.go:48: info login account=admin
+2018/07/06 18:02:53 model_orm.go:48: info login account=admin
+2018/07/06 18:06:59 model_orm.go:48: info login account=admin
+2018/07/06 18:07:43 taskController.go:66: info condition=map[tel:map[$in:[q234tyu]]]
+2018/07/06 18:07:43 taskController.go:87: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/06 18:07:43 taskController.go:93: info Query={"Cond":{"tel":{"$in":["q234tyu"]}},"MaxCount":100}
+2018/07/06 18:08:42 model_orm.go:48: info login account=admin
+2018/07/06 18:10:53 model_orm.go:48: info login account=admin
+2018/07/06 18:18:43 model_orm.go:48: info login account=admin
+2018/07/06 18:19:50 model_orm.go:48: info login account=admin
+2018/07/06 18:21:39 model_orm.go:48: info login account=admin
+2018/07/06 18:25:32 model_orm.go:48: info login account=admin
+2018/07/06 18:27:15 model_orm.go:48: info login account=admin
+2018/07/06 18:31:10 model_orm.go:48: info login account=admin
+2018/07/06 18:31:17 model_orm.go:48: info login account=admin
+2018/07/06 18:32:07 model_orm.go:48: info login account=admin
+2018/07/06 18:33:36 model_orm.go:48: info login account=admin
+2018/07/06 18:34:14 model_orm.go:48: info login account=admin
+2018/07/06 18:36:14 model_orm.go:48: info login account=admin
+2018/07/06 18:37:57 model_orm.go:48: info login account=admin
+2018/07/06 18:43:06 model_orm.go:48: info login account=admin
+2018/07/06 18:50:33 model_orm.go:48: info login account=admin
+2018/07/06 18:51:54 taskController.go:66: info condition=map[]
+2018/07/06 18:51:54 taskController.go:87: info addr=http://192.168.1.243:10001/api/objects/query
+2018/07/06 18:51:54 taskController.go:93: info Query={"Cond":{},"MaxCount":100}
+2018/07/06 18:55:36 model_orm.go:48: info login account=admin
+2018/07/09 10:28:29 model_orm.go:48: info login account=admin
+2018/07/09 11:16:23 model_orm.go:48: info login account=admin
+2018/07/10 08:50:47 taskController.go:64: info condition=map[]
+2018/07/10 08:50:47 taskController.go:81: info *************no file retrieve...
+2018/07/10 08:50:47 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:51:06 taskController.go:64: info condition=map[]
+2018/07/10 08:51:06 taskController.go:81: info *************no file retrieve...
+2018/07/10 08:51:06 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:51:48 taskController.go:64: info condition=map[]
+2018/07/10 08:51:48 taskController.go:81: info *************no file retrieve...
+2018/07/10 08:51:48 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:52:26 taskController.go:64: info condition=map[]
+2018/07/10 08:52:26 taskController.go:81: info *************no file retrieve...
+2018/07/10 08:52:26 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:54:10 model_orm.go:46: info login account=admin
+2018/07/10 08:54:13 taskController.go:64: info condition=map[]
+2018/07/10 08:54:13 taskController.go:81: info *************no file retrieve...
+2018/07/10 08:54:13 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:54:13 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:54:32 taskController.go:64: info condition=map[]
+2018/07/10 08:54:32 taskController.go:81: info *************no file retrieve...
+2018/07/10 08:54:32 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:54:32 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:57:18 model_orm.go:46: info login account=admin
+2018/07/10 08:57:34 taskController.go:64: info condition=map[]
+2018/07/10 08:57:34 taskController.go:81: info *************no file retrieve...
+2018/07/10 08:57:34 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 08:57:34 speakerController.go:121: info RemoteGetSpeakers Query={"Cond":{},"MaxCount":100}
+2018/07/10 09:05:55 model_orm.go:46: info login account=admin
