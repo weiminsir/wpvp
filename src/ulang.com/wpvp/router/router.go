@@ -47,7 +47,6 @@ func initRouter() {
 		adminRouter.PUT("/user", controller.SysUserUpdateInfo)
 		adminRouter.POST("/login", controller.SysUserLogin)
 		adminRouter.POST("/logout", controller.SysUserLogout)
-		//adminRouter.GET("/statistics/speakers", controller.AdminGetSpeakerStatistics)
 	}
 	APIRouter := e.Group("/api")
 	APIRouter.Use(controller.SysUserAuth())

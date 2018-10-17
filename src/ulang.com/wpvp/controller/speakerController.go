@@ -67,26 +67,6 @@ func AdminGetSpkRecords(c echo.Context) error {
 		"Data": result.msg,
 	})
 }
-func AdminGetSpeakerStatistics(c echo.Context) error {
-	statType := c.QueryParam("type")
-	duration := c.QueryParam("duration")
-	if len(statType) == 0 {
-		statType = "0" //默认type=0
-	}
-	if len(duration) == 0 {
-		duration = "7" //默认一周
-	}
-	url := conf.Config.Proxy_Addr + "/api/sidb/stat/" + duration + "/" + statType
-
-	result, err := RemoteGetSpeakersStatistic(url)
-	if err != nil {
-		return c.JSON(http.StatusOK, ResponseMsg(S_GRPC_ERROR))
-	}
-	return c.JSON(http.StatusOK, echo.Map{
-		"Code": S_OK,
-		"Data": result.msg,
-	})
-}
 
 func AdminGetVoice(c echo.Context) error {
 	url := conf.Config.Proxy_Addr + c.Request().RequestURI
